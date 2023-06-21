@@ -1,8 +1,14 @@
 #include "main.h"
-#include <stdio.h>
-void print_alphabet(void){
+
+/**
+ * print_alphabet - Entry point
+ * Return:0
+ */
+
+void print_alphabet(void)
+{
 	int x = 'a';
-	while(x<='z')
+	while( x <= 'z' )
 	{
 		_putchar(x);
 		x++
