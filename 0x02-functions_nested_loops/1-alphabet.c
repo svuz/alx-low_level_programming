@@ -5,7 +5,8 @@ void print_alphabet(void){
 	while(x<='z')
 	{
 		_putchar(x);
+		x++
 	}
-	return 0;
+	_putchar('\n');
 
 }
