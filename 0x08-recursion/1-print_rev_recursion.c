@@ -3,5 +3,5 @@
 /**/
 void _print_rev_recursion(char *s)
 {
-	puts(strrev(s));
+	puts("%s",strrev(s));
 }
