@@ -3,5 +3,6 @@
 /**/
 void _print_rev_recursion(char *s)
 {
-	printf("%s",strrev(s));
+	strrev(s);
+	puts(s);
 }
