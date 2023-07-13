@@ -3,8 +3,8 @@
 #include <stdlib.h>
 void *malloc_checked(unsigned int b)
 {
-        unsigned int* ptr;
-        ptr = (unsigned int*)malloc(b * sizeof(unsigned int));
+        void *ptr;
+        ptr = malloc(b);
         if( ptr == NULL)
         {
                 exit(98);
