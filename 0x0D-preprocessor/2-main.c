@@ -1,7 +1,13 @@
 #include <stdio.h>
 
-int main(int argc, char **argv)
+/*
+ * main - prints source code file name
+ * __FILE__: source code name
+ * return: Always 0
+ */
+
+int main(void)
 {
-	printf("%s", argv[0]);
-	return 0;
+	printf("%s\n", __FILE__);
+	return (0);
 }
