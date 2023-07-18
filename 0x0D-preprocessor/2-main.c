@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/*
+/**
  * main - prints source code file name
- * __FILE__: source code name
- * return: Always 0
+ *
+ * Return: Always 0
  */
 
 int main(void)
