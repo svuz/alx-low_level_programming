@@ -22,5 +22,5 @@ size_t print_linked_list(const list_t *head)
 		size++;
 	}
 
-	return size;
+	return (size);
 }
